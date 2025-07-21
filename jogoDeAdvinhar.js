@@ -10,7 +10,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log('=== Adivinhe o número (0–100) ===');
+console.log('=== Adivinhe o número (100–200) ===');
 console.log(`Você tem no máximo ${MAX_TENTATIVAS} tentativas.\n`); 
 
 rl.setPrompt('Seu palpite: '); // Define o prompt para o usuário
